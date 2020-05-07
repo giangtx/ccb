@@ -1,0 +1,429 @@
+@charset "UTF-8";
+html,body{
+	width: 100%;
+	height: 100%;
+	font-size: 16px;
+}
+ul,li{
+	list-style-type: none;
+	padding-left: 0px;
+}
+a{
+	color: black;
+}
+
+#body-login{
+	height:350px;
+	background: linear-gradient(
+	rgba(0,0,0,0.20),
+	rgba(0,0,0,0.20)
+	),url("../image/background_trangchu.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;	
+}
+/* start css đăng nhập*/
+#body-flex-login{
+	margin-top:200px;
+	display: flex;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+#container-login{
+	display: flex;
+	width: 820px;
+	height: 610px;
+	background: white;
+	
+}
+#container-login-left{
+	display:flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 380px;
+	height: 610px;
+	background-image: url("../image/background.jpg");
+	padding: 0 16px;
+}
+
+#header-tleft{
+	text-align: center;
+	color: white;
+}
+.header-login{
+	margin-top: 40px;
+}
+#text-logo{
+	font-size: 60px;
+}
+#hint-text-logo{
+	font-size: 16px;
+	opacity: 0.7;
+}
+#header-bleft span{
+	color: white;	
+	margin-left: 12px;
+	
+}
+#header-bleft{
+	margin-bottom: 64px;
+	opacity: 0.85;
+}
+#container-login-right{
+	padding: 0 24px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	flex: 1;
+}
+#header-top-right{
+	font-size: 30px;
+	color: #878787;
+	cursor: pointer;
+}
+.actived{
+	color: #DA7C79;
+}
+#icon-gf{
+	align-self: flex-end;
+	margin-bottom: 20px;
+}
+#container-center-login-right input[type=text]{
+	margin-top: 8px;
+	font-size: 14px;
+}#container-center-login-right input[type=password]{
+	margin-top: 8px;
+	font-size: 14px;
+}
+#container-center-login-right input[type=submit]{
+	margin-top: 24px;
+	color: white;
+	size: 14px;
+}
+
+.material-textinput{
+	height: 38px;
+	width: 100%;
+	border: 0;
+	background-color: #D8D8D8;
+}
+.material-button{
+	height: 38px;
+	width: 100%;
+	border: 0;
+	background-color: #0080ff;
+}
+.input-icon-email{
+	background: url("../image/gmail.png") no-repeat 10px 8px;
+	height: 38px;
+	width: 100%;
+	border: 0;
+	background-color: #D8D8D8;
+	padding-left: 42px;
+}
+.input-icon-password{
+	background: url("../image/lock.png") no-repeat 10px 8px;
+	height: 38px;
+	width: 100%;
+	border: 0;
+	background-color: #D8D8D8;
+	padding-left: 42px;
+}
+.mauden{
+	background: black;
+	height: 100px;
+}
+.maudo{
+	background: red;
+	height: 100px;
+}
+
+/* end css đăng nhập*/
+
+/* css trang chu */
+#header{
+	height:755px;
+	background: linear-gradient(
+	rgba(0,0,0,0.20),
+	rgba(0,0,0,0.20)
+	),url("../image/background_trangchu.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.magintop{
+	margin-top: 10px !important;
+}
+.none_navb{
+	background: none !important;
+	border: none !important;
+}
+.navbar_center{
+	margin-left: 25% !important;
+}
+.navbar-nav a{
+	color: white !important;
+}
+.active > a{
+	color: #154872 !important;
+	background: none !important;
+	font-weight: bold;
+}
+.open a{
+	color: #154872 !important;
+	background: none !important;
+	font-weight: bold;
+}
+.dropdown-menu{
+	background: none !important;
+	font-weight: bold;
+}
+.dropdown-menu a{
+	color: white !important;
+}
+.event_header{
+	text-align: center;
+	margin-top: 200px;
+}
+.event_header > span{
+	color: white;
+}
+.event_header > button{
+	margin-top: 10px;
+	color: white;
+	background-color: #295376;
+	border: red;
+	font-size: 25px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+#info{
+	text-align: center;
+	margin-top: 50px;
+	
+}
+#info >span{
+	margin-top: 16px;
+}
+.icon{
+	height: 40px;
+	width: 40px;
+}
+
+.tieuchuan{
+	font-size: 40px;
+	font-weight: 500;
+}
+#title_sanpham{
+	margin-top: 110px;
+	text-align: center;
+}
+.sp_hot{
+	font-size: 40px;
+	font-weight: 500;
+}
+.sanpham{
+	padding-bottom:16px;
+	margin-top: 46px;
+	background-color: #FFF;
+	border: 1px solid #CCC;
+	border-radius: 5px;
+	margin-left: 16px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.gia{
+	color: red;
+	font-size: 15px;
+}
+.sanpham img{
+	height: 300px;
+	max-width: 100%;	
+}
+#footer{
+	margin-top: 110px;
+	height:350px;
+	background: linear-gradient(
+	rgba(0,0,0,0.20),
+	rgba(0,0,0,0.20)
+	),url("../image/background_trangchu.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	
+}
+#footer p{
+	text-align: center;
+}
+.footer-chuto{
+	font-size: 40px;
+	color: white;
+}
+.gopy{
+	background-color: #c0c0c0;
+	border: 1px;
+	margin-bottom: 6px;
+	width: 100%
+}
+.button-gopy{
+	height: 38px;
+	width: 100%;
+	border: 0;
+	background-color: #295376;
+	border: red;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	
+}
+/* end css trang chu*/
+
+/* css chi tiet san pham*/
+
+#header_chitiet{
+	height:50px;
+	margin-top: 12px;
+}
+
+#info_sanpham{
+	margin-top: 45px;
+	background-color: white;
+	height: 620px;	
+	margin-left:10px;
+	margin-right:10px;
+	border: 1px solid #CCC;
+	border-radius: 3px;
+	box-shadow: 0 0px 19px 9px rgba(0,0,0,0.15);
+}
+#info_sanpham_con{
+	margin-top: 80px;
+}
+#ctsanpham{
+	height: 400px;
+	max-width: 100%;
+	border-radius: 2px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.btnGiohang{
+	height:30px;
+	color: white;
+	background-color: #4f8dc1;
+	border: red;
+	font-size: 15px;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
+}
+.soluonggiohangcss{
+	background: red;
+    height: 24px;
+    width: 24px;
+    border-radius: 12px;
+    text-align: center;
+    position: absolute;
+    margin-top: -36px;
+    margin-left: 21px;
+    line-height: 23px;
+}
+.div-danhmuc{
+	padding-left: 40px;
+}
+.p-b-li-ctsp a{
+	text-decoration: none;
+}
+.p-b-li-ctsp{
+	padding-bottom: 8px;
+}
+.a-ctsp{
+	font-size: 16px;
+	color: #555555;
+}
+#danhmuc-ctsp{
+	padding-left: 27%;
+}
+/* end css chi tiet san pham*/
+
+/*css gio hang*/
+#info_giohang{
+	margin-top: 45px;
+	background-color: white;
+	height: 620px;	
+	margin-left:10px;
+	margin-right:10px;
+	border: 1px solid #CCC;
+	border-radius: 3px;
+	box-shadow: 0 0px 19px 9px rgba(0,0,0,0.15);
+}
+.info-nguoimua{
+	padding-left: 50px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.info-ctgiohang{
+	padding-left: 50px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/*end css gio hang*/
+/*css bosuutap*/
+#info_sanpham-bst{
+	margin-top: 45px;
+	background-color: white;
+	padding-bottom: 30px;
+	margin-left:10px;
+	margin-right:10px;
+	border: 1px solid #CCC;
+	border-radius: 3px;
+	box-shadow: 0 0px 19px 9px rgba(0,0,0,0.15);
+}
+#danhmuc-bst{
+	padding-left: 27%;
+}
+#header-danhmuc-bst{
+	font-size: 20px;
+	font-weight: bold;
+}
+.p-b-li-bst{
+	padding-bottom: 8px;
+}
+.p-b-li-bst a{
+	text-decoration: none;
+}
+.a-dm-bst{
+	font-size: 16px;
+	color: #555555;
+}
+.infosp-bst a{
+	text-decoration: none;
+}
+.infosp-bst{
+	text-align: center;
+}
+/*end css bosuutap*/
+@media (max-width: 575.98px) {
+	.navbar_center{
+		margin-left: 0% !important;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.navbar_center{
+		margin-left: 0% !important;
+	}
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.navbar_center{
+		margin-left: 0% !important;
+	}
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.navbar_center{
+		margin-left: 8% !important;
+	}
+}
